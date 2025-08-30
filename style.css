@@ -92,15 +92,22 @@ footer {
 
 /* === FEATURED PRODUCTS SECTION === */
 .featured {
-  padding: 1em 0.5em;             /* Padding */
+  padding: 0.5em 0.5em ;           /* 1em 0.5em Padding */
   text-align: center;           /* Center heading */
 }
+
+.featured h3 {
+  margin-bottom: 0.2em;   /* or smaller, e.g. 0.2em */
+  margin-top: 0.5;          /* remove space above */
+}
+
+
 
 /* GRID CONTAINER FOR PRODUCTS */
 .product-grid {
   display: grid;                /* Use grid layout */
   grid-template-columns: 1fr;  /* Single column */
-  gap: 1.5em;                  /* Gap between items */
+  gap: 1.5em;                  /*  1.5em Gap between items */
 }
 
 /* INDIVIDUAL PRODUCT CARD */
@@ -111,7 +118,8 @@ footer {
   border-radius: 8px;           /* Rounded corners */
   box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow */
   text-align: center;           /* Center content */
-  position: relative;           /* For positioning child elements */
+  position: relative;   /* For positioning child elements */
+  margin: 1.5em 0;  /* add spacing between cards */
 }
 
 /* PRODUCT IMAGE */
