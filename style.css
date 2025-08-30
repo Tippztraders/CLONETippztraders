@@ -421,3 +421,39 @@ footer#contact > .copyright {
   background-color: transparent;
   color: yellow;
 }
+
+
+
+
+
+
+
+
+
+/* Outer wrapper: full width background */
+.counter-bar-wrapper {
+  background-color: #000;    /* Black bar background */
+  width: 100vw;              /* Always full width */
+  margin-left: calc(50% - 50vw);  /* Align full-bleed on mobile */
+  margin-right: calc(50% - 50vw);
+  box-sizing: border-box;
+  padding: 0.5em 0;
+}
+
+/* Inner content: same width as footer max-width */
+.counter-bar {
+  max-width: 960px;           /* Same as footer content */
+  margin: 0 auto;             /* Center it */
+  text-align: center;         /* Center counter */
+}
+
+.counter-bar img {
+  height: 18px;               /* Small number */
+  width: auto;                /* Keep ratio */
+}
+
+
+
+
+
+
